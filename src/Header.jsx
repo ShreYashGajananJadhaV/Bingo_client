@@ -94,7 +94,7 @@ function Header() {
           </button>
         </div>
         <div>
-          <h2>{value}</h2>
+          <h2 className="mb-3 text-center">{value}</h2>
         </div>
       </div>
     </div>
