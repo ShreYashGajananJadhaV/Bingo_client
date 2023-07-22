@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/ShreYashGajananJadhaV/Bingo_client.git/static/css/main.073c9b0a.css",
-    "main.js": "/ShreYashGajananJadhaV/Bingo_client.git/static/js/main.837cb9e5.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/ShreYashGajananJadhaV/Bingo_client.git/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/logo.svg": "/ShreYashGajananJadhaV/Bingo_client.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/ShreYashGajananJadhaV/Bingo_client.git/index.html",
-    "main.073c9b0a.css.map": "/ShreYashGajananJadhaV/Bingo_client.git/static/css/main.073c9b0a.css.map",
-    "main.837cb9e5.js.map": "/ShreYashGajananJadhaV/Bingo_client.git/static/js/main.837cb9e5.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/ShreYashGajananJadhaV/Bingo_client.git/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/Bingo_client/static/css/main.1714bf41.css",
+    "main.js": "/Bingo_client/static/js/main.bedce206.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/Bingo_client/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/Bingo_client/index.html",
+    "main.1714bf41.css.map": "/Bingo_client/static/css/main.1714bf41.css.map",
+    "main.bedce206.js.map": "/Bingo_client/static/js/main.bedce206.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/Bingo_client/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.837cb9e5.js"
+    "static/css/main.1714bf41.css",
+    "static/js/main.bedce206.js"
   ]
 }
