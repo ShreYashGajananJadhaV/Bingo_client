@@ -26,6 +26,7 @@ function Header() {
     )
       .then((res) => res.text())
       .then((res) => setvalue(res));
+
     console.log(
       <div class="alert alert-success" role="alert">
         This is a success alert—check it out!
