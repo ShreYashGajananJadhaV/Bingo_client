@@ -45,7 +45,7 @@ function Header() {
       <div
         className="container col-5 p-3  rounded-5 border border-start-9 "
         style={{
-          width: "50%",
+          width: "30%",
           position: "absolute",
           top: "30%",
           height: "40%",
