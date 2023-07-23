@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Game from "./game";
+import Gamelogic from "./Gamelogic";
 import "bootstrap/dist/css/bootstrap.css";
 
 function Header() {
@@ -100,7 +100,7 @@ function Header() {
         <div class="alert alert-success" role="alert">
           {value}
         </div>
-        <div>{showgame && <Game />}</div>
+        <div>{showgame && <Gamelogic />}</div>
       </div>
     </div>
   );
