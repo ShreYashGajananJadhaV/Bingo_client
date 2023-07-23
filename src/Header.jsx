@@ -26,13 +26,11 @@ function Header() {
     )
       .then((res) => res.text())
       .then((res) => setvalue(res));
-    if (res) {
-      console.log(
-        <div class="alert alert-success" role="alert">
-          This is a success alert—check it out!
-        </div>
-      );
-    }
+    console.log(
+      <div class="alert alert-success" role="alert">
+        This is a success alert—check it out!
+      </div>
+    );
   };
 
   return (
