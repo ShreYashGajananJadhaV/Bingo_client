@@ -26,12 +26,6 @@ function Header() {
     )
       .then((res) => res.text())
       .then((res) => setvalue(res));
-
-    console.log(
-      <div className="alert alert-success" role="alert">
-        This is a success alert—check it out!
-      </div>
-    );
   };
 
   return (
