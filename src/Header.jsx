@@ -1,11 +1,13 @@
 import React from "react";
 import { useState } from "react";
+import game from "./game";
 import "bootstrap/dist/css/bootstrap.css";
 
 function Header() {
   const [value, setvalue] = useState("");
   const [username, setusername] = useState("");
   const [pass, setpass] = useState("");
+  const [showgame, setshowgame] = useState(false);
 
   const requestOptions = {
     method: "POST", // Use the POST method to send data to the server
@@ -26,6 +28,8 @@ function Header() {
     )
       .then((res) => res.text())
       .then((res) => setvalue(res));
+
+    setshowgame(true);
   };
 
   return (
@@ -93,9 +97,10 @@ function Header() {
             Submit
           </button>
         </div>
-        <div>
-          <h2>{value}</h2>
+        <div class="alert alert-success" role="alert">
+          {value}
         </div>
+        <div>{showgame && <game />}</div>
       </div>
     </div>
   );
